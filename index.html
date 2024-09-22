@@ -1,54 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Log In</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="icon" type="image/png"
-	href="images/icons/favicon.ico" />
-<link rel="stylesheet" type="text/css"
-	href="css/util.css">
-<link rel="stylesheet" type="text/css"
-	href="css/main.css">
-	
+<head>
+	<title>Log In</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
 </head>
+
 <body>
 
 	<div style="width: 100%; margin: 0 auto;">
-		<div class="container-login"
-			style="background-image: url('images/bg1.jpg');">
+		<div class="container-login" style="background-image: url('images/bg1.jpg');">
 			<div class="wrap-login" style="padding: 65px 55px 54px;">
 
 				<form class="login-form" name="loginForm" action="#" method="post">
 
-					<span class="login-form-title" style="padding-bottom: 49px;"> Login </span>
+					<span class="login-form-title" style="padding-bottom: 49px;"> Login
+					</span>
 
 					<div class="wrap-input" style="margin-bottom: 23px">
-						<span class="label-input">Username</span> <input
-							class="input" type="text" name="username"
+						<span class="label-input">Username</span> <input class="input" type="text" name="username"
 							placeholder="Type your username" required>
 					</div>
 
-					<div class="wrap-input"
-						data-validate="Password is required">
-						<span class="label-input">Password</span> <input
-							class="input" type="password" name="pass"
-							placeholder="Type your password" required> 
-							<!-- <img src="/images/icons/padlock.png" width="20px" height="20px"> -->
+					<div class="wrap-input" data-validate="Password is required">
+						<span class="label-input">Password</span> <input class="input" type="password" name="pass"
+							placeholder="Type your password" required>
+						<!-- <img src="/images/icons/padlock.png" width="20px" height="20px"> -->
 					</div>
 
-					<div style="display: flex; flex-direction: row; justify-content: space-between;">
-						<div style="padding: 14px 0 31px;color: #666666; font-size: 14px;">
-							<label for="RememberMe"> <input
-								type="checkbox" id="RememberMe"
-								name="remember"> Remember me
-							</label>
-						</div>
-						<div style="padding: 10px 0 31px;">
-							<a href="#"> Forgot password? </a>
-						</div>
-					</div>
+					<label for="RememberMe"
+						style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+						<span
+							style="padding: 14px 0 31px; color: #666666; font-size: 14px; display: flex; align-items: center;">
+							<input type="checkbox" id="RememberMe" name="remember">
+							<span style="margin: 5px;"> Remember me </span>
+						</span>
+						<a href="#" style="padding: 14px 0 31px;"> Forgot password? </a>
+					</label>
 
 					<div class="container-login-form-btn">
 						<div class="wrap-login-form-btn">
@@ -62,13 +56,12 @@
 					</div>
 
 					<div style="display: flex; justify-content: center; align-items: center;">
-						<a href="#" class="login-social-item bg1"> <i
-							class="fa fa-facebook"></i>
-						</a> <a href="#" class="login-social-item bg2"> <i
-							class="fa fa-twitter"></i>
-						</a> <a href="#" class="login-social-item bg3"> <i
-							class="fa fa-google"></i>
-						</a>
+						<a href="#" class="login-social-item bg1">
+							<!-- <i class="fa fa-facebook">F</i> --> F </a>
+						<a href="#" class="login-social-item bg2">
+							<!-- <i class="fa fa-twitter">t</i> --> t </a>
+						<a href="#" class="login-social-item bg3">
+							<!-- <i class="fa fa-google">G</i> --> G </a>
 					</div>
 
 					<div style="display: flex; flex-direction: column; align-items: center; padding-top: 100px;">
@@ -85,4 +78,5 @@
 	<div id="dropDownSelect1"></div>
 
 </body>
+
 </html>
